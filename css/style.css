@@ -47,7 +47,7 @@ header li {
 
 header a {
   display: block;
-  color: #3498db;
+  color: #3470db;
   padding: 15px;
 }
 
@@ -121,7 +121,7 @@ footer {
 
 .copyright p {
   margin: 0;
-  color: #74808a;
+  color: #6b747d;
 }
 
 .top {
@@ -177,14 +177,14 @@ footer {
   transition: .5s ease all;
 }
 
-.btn-rounded-white:hover {
-  color: #3498db;
-  background: #fff;
-  text-decoration: none;
+.btn-info {
+    color: #fff;
+    background-color: #124c68;
+    border-color: #1d7280;
 }
 
 .shadow {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px #007bff,0 1px 2px #007bff;
 }
 
 .shadow-large {
@@ -314,7 +314,7 @@ footer {
 }
 
 #about p {
-  color: #74808a;
+  color: #2c3339;
   line-height: 25px;
   width: 65%;
   margin: 0 auto;
@@ -375,7 +375,7 @@ footer {
 }
 
 .education-block h4 {
-  color: #74808a;
+  color: #2c3339;
   clear: both;
   font-weight: 350;
   font-size: 120%;
@@ -384,7 +384,7 @@ footer {
 
 .education-block p,.education-block ul {
   margin: 0;
-  color: #74808a;
+  color: #2c3339;
   font-size: 0.9em;
 }
 
@@ -415,11 +415,11 @@ footer {
 .project-image {
   float: left;
 }
-
+ 
 .project-info {
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(10%);
   margin-left: 300px;
   padding: 15px;
 }
@@ -427,14 +427,19 @@ footer {
 .project-info h3 {
   font-size: 1.5em;
   font-weight: 300;
-  color: #374054;
+  color: #08225c;
   margin: 0 0 15px 0;
 }
 
 .project-info p {
-  color: #74808a;
+  color: #2c3339;
   margin: 0 0 15px 0;
   font-size: 1.1em;
+}
+
+.project-info a{
+  color: #006bff;
+  text-decoration: none;
 }
 
 .no-image .project-info {
